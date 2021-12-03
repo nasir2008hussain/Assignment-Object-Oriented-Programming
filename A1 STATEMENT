@@ -1,0 +1,4 @@
+Create a class employee. The members should include employee number(int), name(char*), salary(int), designation(char*). Employee number should be of type constant integer. 
+Include static data member to keep track of the number of employee objects. Write down all setter, getter functions along with constructor and destructors.
+Make all read only functions as constants. Write down copy constructor to deal with shallow copying. Write down at least two functions to demonstrate cascading calls possible.
+Your program should have separate implementation from the interface. Write down main function to demonstrate the functionality of your program.
