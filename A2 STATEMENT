@@ -1,0 +1,15 @@
+STATEMENT Design and implement a C++ class named Array. You are expected to provide the following functionalities: 
+A constant data member to hold the size of the array. It should be initialized using an argument when the constructor is called.
+If the argument is negative, it should be initialized to 1.
+A pointer to integer which should point to a memory portion allocated in constructor (using the size data member) and deallocated in destructor.
+Note that the size of allocated memory cannot change once an instance has been initialized (because the size data member is constant). 
+A data member named local_average for storing the average of all integers in a particular instance of your Array. 
+A static data member named global_count, which represents the number of Array objects initialized in your program. 
+A static data member named global_size, which represents the total number of integers your class has allocated to various instances. 
+A static data member named global_average for storing the average of all integers of all Array instances initialized. 
+Overload stream insertion << and stream extraction operators for class Array Overload + and – operator to add and subtract
+corresponding elements of two array object having same size. Overload subscript operator [] for the objects of class Array.
+Overload function operator () such that the statement cout<<ArrObject(1,3) can be used to print first three elements of the array object.
+Overload ++ and – operator to increment and decrement all array elements by 1 respectively.
+Write a driver program to test your class by inputting from user the number of Array instances he wants to create, their sizes and their values in an orderly fashion.
+While updating values, local_average and global_average should be printed after every change. Test all the overloaded operators in the driver function. 
