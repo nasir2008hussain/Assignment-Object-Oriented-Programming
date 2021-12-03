@@ -1,0 +1,13 @@
+We have studied inheritance in detail.  Based on inheritance concepts solve the following problem. 
+Problem Statement:
+Develop a simple payroll application for a company; there are three kinds of employees in the system: salaried employee, hourly employee, and commissioned employee. 
+Details of these employees is given below: Salaried Employees: name, date of joining, tax rate, salary, set name, get name, calculate salary, constructor, destructor
+and any other required functionality. Hourly Employees: name, date of joining, tax rate, hours, hourly rate, set name, get name, calculate salary, constructor, 
+destructor and provide other required functions. Commissioned Employee: name, date of joining, tax rate, sales, commission rate, get name, calculate salary, constructor,
+destructor and provide other  required functions You have to perform following tasks 
+1.Draw object-oriented model of the system using class hierarchy. 
+2.Implement appropriate constructor and destructor. 
+3.Write down appropriate setter/getter functions. Incorporate String & date classes in the class hierarchy to deal with name and date of joining of the employee.
+4.Implement other member functions described above.
+5.The system should take input as an array containing employee objects, calculates salary and generates report. 
+6.Demonstrate (5) using main function 
